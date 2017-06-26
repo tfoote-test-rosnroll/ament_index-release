@@ -12,9 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from ament_pyflakes.main import main
 
-
-def test_pyflakes():
-    rc = main(argv=[])
-    assert rc == 0, 'Found errors'
+RESOURCE_INDEX_SUBFOLDER = 'share/ament_index/resource_index'
+AMENT_PREFIX_PATH_ENV_VAR = 'AMENT_PREFIX_PATH'
