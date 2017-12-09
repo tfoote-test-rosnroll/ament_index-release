@@ -1,0 +1,12 @@
+Source: ros-ardent-ament-index-cpp
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-ardent-ament-cmake, ros-ardent-ament-cmake-gtest, ros-ardent-ament-lint-auto, ros-ardent-ament-lint-common, ros-ardent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-ardent-ament-index-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-ardent-ros-workspace
+Description: C++ API to access the ament resource index.
