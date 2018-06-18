@@ -10,9 +10,16 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-std=c++14 -Wall -Wextra -Wpedantic)
 endif()
 
+option(
+  BUILD_SHARED_LIBS
+  "Global flag to cause add_library() to create shared libraries if on. \
+If set to true, this will cause all libraries to be built shared \
+unless the library was explicitly added as a static library."
+  ON)
+
 find_package(ament_cmake REQUIRED)
 
-add_library(${PROJECT_NAME} SHARED
+add_library(${PROJECT_NAME}
   src/get_package_prefix.cpp
   src/get_package_share_directory.cpp
   src/get_packages_with_prefixes.cpp
@@ -27,7 +34,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC
   "$<INSTALL_INTERFACE:include>")
 
 ament_export_include_directories(include)
-ament_export_interfaces(export_${PROJECT_NAME})
+ament_export_interfaces(export_${PROJECT_NAME} HAS_LIBRARY_TARGET)
 ament_export_libraries(${PROJECT_NAME})
 
 if(BUILD_TESTING)
