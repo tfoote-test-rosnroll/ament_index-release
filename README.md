@@ -1,3 +1,28 @@
+## ament_index (eloquent) - 0.7.1-1
+
+The packages in the `ament_index` repository were released into the `eloquent` distro by running `/usr/bin/bloom-release -n -r eloquent ament_index --override-release-repository-push-url git@github.com:ros2-gbp/ament_index-release` on `Wed, 18 Sep 2019 14:12:41 -0000`
+
+These packages were released:
+- `ament_index_cpp`
+- `ament_index_python`
+
+Version of package(s) in repository `ament_index`:
+
+- upstream repository: https://github.com/ament/ament_index.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.7.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.13`
+- rosdep version: `0.15.2`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.42`
+
+
 ## ament_index (dashing) - 0.7.0-1
 
 The packages in the `ament_index` repository were released into the `dashing` distro by running `/home/steven/osrf/bloom/myscripts/py3env/bin/bloom-release -r dashing ament_index --override-release-repository-push-url git@github.com:ros2-gbp/ament_index-release` on `Thu, 11 Apr 2019 19:19:08 -0000`
