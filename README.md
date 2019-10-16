@@ -1,3 +1,28 @@
+## ament_index (dashing) - 0.7.2-1
+
+The packages in the `ament_index` repository were released into the `dashing` distro by running `/usr/bin/bloom-release -r dashing -t dashing ament_index` on `Wed, 16 Oct 2019 16:48:58 -0000`
+
+These packages were released:
+- `ament_index_cpp`
+- `ament_index_python`
+
+Version of package(s) in repository `ament_index`:
+
+- upstream repository: https://github.com/ament/ament_index.git
+- release repository: https://github.com/ros2-gbp/ament_index-release.git
+- rosdistro version: `0.7.1-1`
+- old version: `0.7.1-2`
+- new version: `0.7.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.14`
+- rosdep version: `0.16.1`
+- rosdistro version: `0.7.5`
+- vcstools version: `0.1.42`
+
+
 ## ament_index (dashing) - 0.7.1-2
 
 The packages in the `ament_index` repository were released into the `dashing` distro by running `/usr/bin/bloom-release -r dashing -t dashing ament_index` on `Wed, 16 Oct 2019 16:42:10 -0000`
